@@ -1,24 +1,43 @@
-📦 Gestão de Materiais V3
-Bem-vindo à nova era da organização e produtividade!
+# Gestão de Materiais
 
-🔎 Este sistema foi criado para facilitar a busca por códigos de materiais dentro da empresa, otimizando o tempo de todos os setores e garantindo mais clareza na identificação de itens técnicos.
+## Descrição
+O projeto "Gestão de Materiais" é um sistema para cadastro, controle, solicitações e requisições de materiais. A aplicação permite que os usuários busquem materiais por código ou nome, visualizem uma lista de materiais e copiem códigos de materiais facilmente.
 
-✨ O que você encontra aqui:
-Uma interface moderna e intuitiva
+## Estrutura do Projeto
+O projeto possui a seguinte estrutura de arquivos:
 
-Campo de busca inteligente: digite parte do nome, código ou medida e encontre rapidamente o que precisa
+```
+gestao-de-materiais
+├── assets
+│   ├── styles.css        # Estilos CSS para a aplicação
+│   └── main.js           # Código JavaScript para interações e lógica
+├── index.html            # Documento HTML principal da aplicação
+└── README.md             # Documentação do projeto
+```
 
-Botão de copiar código com um clique, agilizando cadastros e solicitações
+## Instalação
+Para executar o projeto, siga os passos abaixo:
 
-Organização limpa, pensada para facilitar o dia a dia de quem realmente usa
+1. **Clone o repositório:**
+   ```
+   git clone <URL do repositório>
+   ```
 
-🚀 Por que isso é importante?
-Imagine não precisar mais revirar o sistema, perder tempo com nomes parecidos ou lidar com retrabalho por erros de digitação.
-Agora, com Gestão de Materiais V3, você encontra o item certo em segundos. Isso representa mais do que agilidade — representa respeito ao seu tempo e valorização do seu trabalho.
+2. **Navegue até o diretório do projeto:**
+   ```
+   cd gestao-de-materiais
+   ```
 
-💼 Para quem foi feito?
-Este sistema foi desenvolvido com foco nos colaboradores que lidam diariamente com cadastros, manutenções, compras, engenharia e logística.
-É um aliado prático, que transforma a rotina e fortalece a comunicação entre setores.
+3. **Abra o arquivo `index.html` em um navegador:**
+   Você pode abrir o arquivo diretamente no navegador ou usar um servidor local para visualizar a aplicação.
 
-🌐 Experimente. Use. Evolua.
-Nosso compromisso é com a melhoria contínua. Se tiver sugestões de melhorias, encontrou algum erro ou quer elogiar, fale com a gente!
+## Uso
+- Ao abrir a aplicação, você verá uma barra de pesquisa onde pode buscar materiais por código ou nome.
+- A lista de materiais será exibida abaixo da barra de pesquisa.
+- Você pode copiar o código de um material clicando no botão "Copiar código" ao lado do respectivo material.
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
+
+## Licença
+Este projeto é licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
